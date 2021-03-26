@@ -1,12 +1,26 @@
 <template>
- <h1> COE RAPAZIADA   </h1>
+  <div id="app">
+
+  <h1> {{mesage}}  </h1>
+  <input type="text" name="" id="name" v-model="username">
+
+  </div>
+ 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  
+  data: ({
+    return: {
+      mesage:"teu pai usa calcinha",
+      username:""
+    }
+
+
+
+  })
 }
 </script>
 

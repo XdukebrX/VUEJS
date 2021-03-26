@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-  <h1> {{mesage}}  </h1>
+  <h1> {{mesage}}</h1>
   <input type="text" name="" id="name" v-model="username">
 
   </div>
@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  data: ({
+  dados: ({
     return: {
       mesage:"teu pai usa calcinha",
       username:""
@@ -31,7 +31,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: black;
+
   margin-top: 60px;
 }
 </style>
